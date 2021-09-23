@@ -9,7 +9,7 @@ function suma(){
 	console.log(num1);
 	num2 = num2Element.value;
 	console.log(num2);
-	result = 'La suma es = ' + num1 + num2;
+	result = 'La suma es = ' + (num1 + num2);
 	console.log(result);
 	document.getElementById("resultado").innerHTML = result;
 }
